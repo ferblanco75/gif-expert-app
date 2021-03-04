@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import AddCategory from './components/AddCategory';
+import { AddCategory}  from './components/AddCategory';
 
 
 const GifExpertApp = ()=>{
@@ -25,7 +25,7 @@ const GifExpertApp = ()=>{
    return (
         <>
             <h2>GifexpertApp</h2>
-            <AddCategory/>
+            <AddCategory />
             <hr/>
             
             <ol>{
