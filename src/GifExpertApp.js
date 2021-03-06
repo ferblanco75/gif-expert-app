@@ -14,18 +14,18 @@ const GifExpertApp = ()=>{
    
 //     }
 
-//     const handleReset = () =>{
+     const handleReset = () =>{
 //         //agrega un elemento al arreglo
 //        //necesito usar el setCategories 
-//        setCategories((categories)=> categories= ['One punch', 'Samurai X', 'Dragon Ball', 'Simpsons']);
+        setCategories((categories)=> categories= ['One punch', 'Samurai X', 'Dragon Ball', 'Simpsons']);
    
-//     }
+     }
    
    
    return (
         <>
             <h2>GifexpertApp</h2>
-            <AddCategory />
+            <AddCategory setCategories= { setCategories } />
             <hr/>
             
             <ol>{
