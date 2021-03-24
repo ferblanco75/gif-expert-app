@@ -16,7 +16,7 @@ export const AddCategory = ({ setCategories }) => {
         //console.log('submit hecho');
         //con la validacion del length del trim limito a que agregue solo cuando el texto tiene 2 caracteres o mas
         if ( inputValue.trim().length > 2) {
-            setCategories(cats => [...cats, inputValue])
+            setCategories(cats => [inputValue, ...cats ])
             setInputValue('');
         }  
     }

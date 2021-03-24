@@ -8,12 +8,6 @@ const GifExpertApp = ()=>{
 
      const [categories, setCategories] = useState(['Dragon Ball']);
 
-     const handleReset = () =>{
-//         //agrega un elemento al arreglo
-//        //necesito usar el setCategories 
-        setCategories((categories)=> categories= [ 'Dragon Ball']);
-   
-     }
    
    
    return (
